@@ -67,7 +67,10 @@ module.exports = {
             }
           },
           {
-            loader: "sass-loader"
+            loader: "sass-loader",
+            options: {
+              includePaths: ["./node_modules"]
+            }
           }
         ]
       },
