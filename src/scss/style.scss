@@ -1,3 +1,17 @@
 /*
 * Custom Styles
 */
+@import "variables";
+@import "@material/icon-button/mdc-icon-button";
+
+body {
+  font-family: $fontFamily;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb {
+  margin-bottom: 20px;
+}
