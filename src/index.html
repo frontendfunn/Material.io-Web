@@ -11,38 +11,49 @@
 </head>
 
 <body>
-    <h1 class="text-center">Material.io Icon Buttons</h1>
+    <h1 class="text-center">Material.io Adding Ripple Effect to Buttons</h1>
 
     <div class="mb">
-        <div>Default Icon Button</div>
-        <button class="mdc-icon-button material-icons">favorite</button>
+        <div class="mb">Button Component</div>
+        <button class="mdc-button rippleEffect">
+            Simple Button
+        </button>
+        <button class="mdc-button mdc-button--raised rippleEffect">
+            Raised Button
+        </button>
+        <button class="mdc-button mdc-button--unelevated rippleEffect">
+            Unelevated Button
+        </button>
+        <button class="mdc-button mdc-button--icon rippleEffect">
+            <i class="material-icons mdc-button__icon">android</i>
+            Icon Button
+        </button>
     </div>
 
+    <hr>
     <div class="mb">
-        <div>Icon Button Toggle</div>
-        <button class="mdc-icon-button iconToggle">
-            <i class="mdc-icon-button__icon material-icons mdc-icon-button__icon--on">favorite</i>
+        <div class="mb">Floating Action Button Components</div>
+        <button class="mdc-fab rippleEffect">
             <i class="mdc-icon-button__icon material-icons">favorite_border</i>
         </button>
-
-        <button class="mdc-icon-button iconToggle">
-            <i class="mdc-icon-button__icon material-icons mdc-icon-button__icon--on">favorite</i>
+        <button class="mdc-fab mdc-fab--mini rippleEffect">
             <i class="mdc-icon-button__icon material-icons">favorite_border</i>
         </button>
-    </div>
-
-    <div class="mb">
-        <div>Icon Button with a image</div>
-        <button class="mdc-icon-button iconToggle">
-            <img src="images/icon2.png" alt="" class="mdc-icon-button__icon mdc-icon-button__icon--on">
-            <img src="images/icon.png" class="mdc-icon-button__icon" alt="">
+        <button class="mdc-fab mdc-fab--extended rippleEffect">
+            <i class="mdc-fab__icon material-icons">add</i>
+            <span class="mdc-fab__label">Create</span>
         </button>
     </div>
+    <hr>
 
     <div class="mb">
-        <div>Disabled Icon Button</div>
-        <button class="mdc-icon-button" disabled>
+        <div class="mb">Icon Button Component</div>
+        <button class="mdc-icon-button iconToggle iconToggleRipple">
             <i class="material-icons mdc-icon-button__icon">favorite</i>
+        </button>
+        <button class="mdc-icon-button iconToggle iconToggleRipple">
+            <i class="material-icons mdc-icon-button__icon">favorite</i>
+            <i class="material-icons mdc-icon-button__icon mdc-icon-button__icon--on">favorite_border</i>
         </button>
     </div>
 
