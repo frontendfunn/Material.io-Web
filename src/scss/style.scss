@@ -1,3 +1,26 @@
 /*
 * Custom Styles
 */
+@import "variables";
+@import "@material/card/mdc-card";
+@import "@material/button/mdc-button";
+@import "@material/icon-button/mdc-icon-button";
+body {
+  font-family: $fontFamily;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb {
+  margin-bottom: 20px;
+}
+
+.myCard {
+  max-width: 450px;
+}
+
+.cardHeading {
+  padding: 10px;
+}

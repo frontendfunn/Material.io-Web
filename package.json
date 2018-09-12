@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"dev": "webpack-dev-server --config=config/webpack.dev.config.js  --watch",
+    "dev": "webpack-dev-server --config=config/webpack.dev.config.js  --watch",
     "build": "webpack --config=config/webpack.prod.config.js"
   },
   "author": "frontendfunn",
@@ -23,6 +23,7 @@
     "file-loader": "^2.0.0",
     "html-loader": "^0.5.5",
     "image-webpack-loader": "^4.3.1",
+    "material-components-web": "^0.39.3",
     "mini-css-extract-plugin": "^0.4.2",
     "node-sass": "^4.9.3",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
