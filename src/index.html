@@ -6,10 +6,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Webpack 4 StarterKit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css" />
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+
+    <h1 class="text-center">
+        Material.io Chips Component
+    </h1>
+
+    <div class="mb">
+        <div class="mb">Basic Chip Component</div>
+
+        <div class="mdc-chip-set">
+            <div class="mdc-chip" tabindex="0">
+                <div class="mdc-chip__text">Basic Chip</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="mb">
+        <div class="mb">Chip with Leading Icons</div>
+        <div class="mdc-chip-set">
+            <div class="mdc-chip">
+                <div class="material-icons mdc-chip__icon mdc-chip__icon--leading">favorite</div>
+                <div class="mdc-chip__text">Leading Icon</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb">
+        <div class="mb">Chip with Trailing Icon</div>
+        <div class="mdc-chip-set">
+            <div class="mdc-chip">
+                <div class="mdc-chip__text">Trailing Icon</div>
+                <div class="material-icons mdc-chip__icon mdc-chip__icon--trailing" tabindex="0" role="button">close</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb">
+        <div class="mb">Choice Chips</div>
+        <div class="mdc-chip-set mdc-chip-set--choice">
+            <div class="mdc-chip">
+                <div class="mdc-chip__text">Option 1</div>
+            </div>
+            <div class="mdc-chip">
+                <div class="mdc-chip__text">Option 2</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb">
+        <div class="mb">Filter Chips</div>
+        <div class="mdc-chip-set mdc-chip-set--filter">
+            <div class="mdc-chip">
+                <div class="mdc-chip__checkmark">
+                    <svg class="mdc-chip__checkmark-svg" viewBox="-2 -3 30 30">
+                        <path class="mdc-chip__checkmark-path" fill="none" stroke="black" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                    </svg>
+                </div>
+                <div class="mdc-chip__text">Filter 1</div>
+            </div>
+            <div class="mdc-chip">
+                <i class="material-icons mdc-chip__icon mdc-chip__icon--leading">favorite</i>
+                <div class="mdc-chip__checkmark">
+                    <svg class="mdc-chip__checkmark-svg" viewBox="-2 -3 30 30">
+                        <path class="mdc-chip__checkmark-path" fill="none" stroke="black" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                    </svg>
+                </div>
+                <div class="mdc-chip__text">Filter 2</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb">
+        <div class="mb">Pre Selected Chips</div>
+        <div class="mdc-chip-set mdc-chip-set--choice">
+            <div class="mdc-chip mdc-chip--selected">
+                <div class="mdc-chip__text">Option 1</div>
+            </div>
+            <div class="mdc-chip">
+                <div class="mdc-chip__text">Option 2</div>
+            </div>
+        </div>
+    </div>
+
+
 
     <script src="js/main.js"></script>
 </body>

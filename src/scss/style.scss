@@ -1,3 +1,18 @@
 /*
 * Custom Styles
 */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+$fontFamily: "Open Sans", sans-serif;
+
+@import "@material/chips/mdc-chips";
+
+body {
+  font-family: $fontFamily;
+}
+.text-center {
+  text-align: center;
+}
+
+.mb {
+  margin-bottom: 20px;
+}
