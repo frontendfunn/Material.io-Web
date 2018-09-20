@@ -1,2 +1,17 @@
 require("../scss/style.scss");
 require("../index.html");
+require("../images/standard/image (1).jpg");
+require("../images/standard/image (2).jpg");
+require("../images/standard/image (3).jpg");
+require("../images/standard/image (4).jpg");
+require("../images/standard/image (5).jpg");
+require("../images/standard/image (6).jpg");
+require("../images/standard/image (7).jpg");
+require("../images/standard/image (8).jpg");
+require("../images/masonry/img (1).jpg");
+require("../images/masonry/img (2).jpg");
+require("../images/masonry/img (3).jpg");
+require("../images/masonry/img (4).jpg");
+require("../images/masonry/img (5).jpg");
+require("../images/masonry/img (6).jpg");
+require("../images/masonry/img (7).jpg");

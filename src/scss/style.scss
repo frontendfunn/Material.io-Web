@@ -1,3 +1,32 @@
 /*
 * Custom Styles
 */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+$fontFamily: "Open Sans", sans-serif;
+
+@import "@material/image-list/mdc-image-list";
+
+body {
+  font-family: $fontFamily;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb {
+  margin-bottom: 20px;
+}
+
+.block {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 40px;
+}
+
+.myImageList {
+  @include mdc-image-list-standard-columns(4);
+}
+
+.myMasonryImageList {
+  @include mdc-image-list-masonry-columns(3);
+}
