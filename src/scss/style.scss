@@ -1,3 +1,34 @@
 /*
 * Custom Styles
 */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+$fontFamily: "Open Sans", sans-serif;
+
+@import "@material/textfield/mdc-text-field";
+@import "@material/floating-label/mdc-floating-label";
+@import "@material/line-ripple/mdc-line-ripple";
+@import "@material/textfield/icon/mdc-text-field-icon";
+@import "@material/notched-outline/mdc-notched-outline";
+
+body {
+  font-family: $fontFamily;
+}
+.text-center {
+  text-align: center;
+}
+.mb {
+  margin-bottom: 20px;
+}
+.fieldContainer {
+  display: flex;
+  flex-direction: column;
+  .defaultWidth {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .textField {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+}

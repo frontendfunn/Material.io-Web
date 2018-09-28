@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"dev": "webpack-dev-server --config=config/webpack.dev.config.js  --watch",
+    "dev": "webpack-dev-server --config=config/webpack.dev.config.js  --watch",
     "build": "webpack --config=config/webpack.prod.config.js"
   },
   "author": "frontendfunn",
@@ -13,6 +13,10 @@
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.0.0",
+    "@material/floating-label": "^0.40.0",
+    "@material/line-ripple": "^0.40.0",
+    "@material/notched-outline": "^0.40.0",
+    "@material/textfield": "^0.40.0",
     "autoprefixer": "^9.1.5",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
@@ -23,6 +27,7 @@
     "file-loader": "^2.0.0",
     "html-loader": "^0.5.5",
     "image-webpack-loader": "^4.3.1",
+    "jquery": "^3.3.1",
     "mini-css-extract-plugin": "^0.4.2",
     "node-sass": "^4.9.3",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
