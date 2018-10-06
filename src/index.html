@@ -10,6 +10,100 @@
 </head>
 
 <body>
+    <h1 class="text-center">
+        Material.io Select Menu
+    </h1>
+    <div class="mb">
+        <div class="mb">Default Select Menu</div>
+        <div class="mdc-select mySelectMenu">
+            <select name="" id="options" class="mdc-select__native-control">
+                <option value="" disabled selected></option>
+                <option value="option1">Option1</option>
+                <option value="option2">Option2</option>
+                <option value="option3">Option3</option>
+            </select>
+            <label for="options" class="mdc-floating-label">Select an Option</label>
+            <div class="mdc-line-ripple"></div>
+        </div>
+    </div>
+
+
+    <div class="mb">
+        <div class="mb">Outlined Select Menu</div>
+        <div class="mdc-select mdc-select--outlined mySelectMenu">
+            <select name="" id="options1" class="mdc-select__native-control">
+                <option value="" disabled selected></option>
+                <option value="option1">Option1</option>
+                <option value="option2">Option2</option>
+                <option value="option3">Option3</option>
+            </select>
+            <label for="options1" class="mdc-floating-label">Select an Option</label>
+            <div class="mdc-notched-outline">
+                <svg>
+                    <path class="mdc-notched-outline__path" />
+                </svg>
+            </div>
+            <div class="mdc-notched-outline__idle"></div>
+        </div>
+    </div>
+
+    <div class="mb">
+        <div class="mb">Pre Selected Option</div>
+        <div class="mdc-select mySelectMenu">
+            <select name="" id="options" class="mdc-select__native-control">
+                <option value="" disabled></option>
+                <option value="option1" selected>Option1</option>
+                <option value="option2">Option2</option>
+                <option value="option3">Option3</option>
+            </select>
+            <label for="options" class="mdc-floating-label mdc-floating-label--float-above">Select an Option</label>
+            <div class="mdc-line-ripple"></div>
+        </div>
+    </div>
+
+    <div class="mb">
+        <div class="mb">Select with a placeholder Option</div>
+        <div class="mdc-select mySelectMenu">
+            <select name="" id="options" class="mdc-select__native-control">
+                <option value="" disabled selected></option>
+                <option value="option1">Option1</option>
+                <option value="option2">Option2</option>
+                <option value="option3">Option3</option>
+            </select>
+            <label for="options" class="mdc-floating-label">Select an Option</label>
+            <div class="mdc-line-ripple"></div>
+        </div>
+    </div>
+
+
+    <div class="mb">
+        <div class="mb">Disabled Select</div>
+        <div class="mdc-select mdc-select--disabled mySelectMenu">
+            <select name="" id="options" class="mdc-select__native-control" disabled>
+                <option value="" disabled selected></option>
+                <option value="option1">Option1</option>
+                <option value="option2">Option2</option>
+                <option value="option3">Option3</option>
+            </select>
+            <label for="options" class="mdc-floating-label">Select an Option</label>
+            <div class="mdc-line-ripple"></div>
+        </div>
+    </div>
+
+
+    <div class="mb">
+        <div class="mb">Disabled Options</div>
+        <div class="mdc-select mySelectMenu">
+            <select name="" id="options" class="mdc-select__native-control">
+                <option value="" disabled selected></option>
+                <option value="option1" disabled>Option1</option>
+                <option value="option2">Option2</option>
+                <option value="option3">Option3</option>
+            </select>
+            <label for="options" class="mdc-floating-label">Select an Option</label>
+            <div class="mdc-line-ripple"></div>
+        </div>
+    </div>
 
     <script src="js/main.js"></script>
 </body>

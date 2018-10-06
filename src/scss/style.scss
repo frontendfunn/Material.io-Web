@@ -1,3 +1,24 @@
 /*
 * Custom Styles
 */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+$fontFamily: "Open Sans", sans-serif;
+
+@import "@material/select/mdc-select";
+@import "@material/floating-label/mdc-floating-label";
+@import "@material/line-ripple/mdc-line-ripple";
+@import "@material/notched-outline/mdc-notched-outline";
+
+body {
+  font-family: $fontFamily;
+}
+.text-center {
+  text-align: center;
+}
+.mySelectMenu {
+  width: 200px;
+}
+.mb {
+  margin-bottom: 20px;
+}
