@@ -1,5 +1,15 @@
 /*
 * Custom Styles
 */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+$fontFamily: "Open Sans", sans-serif;
+
 @import "@material/form-field/mdc-form-field";
 @import "@material/radio/mdc-radio";
+
+body {
+  font-family: $fontFamily;
+}
+.text-center {
+  text-align: center;
+}
