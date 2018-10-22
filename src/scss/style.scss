@@ -1,3 +1,30 @@
 /*
 * Custom Styles
 */
+/*
+* Custom Styles
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+$fontFamily: "Open Sans", sans-serif;
+@import "@material/slider/mdc-slider";
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+.seperator {
+  margin: 50px auto;
+  width: 50%;
+  border-color: #ccc;
+  border-style: dashed;
+}
+
+body {
+  font-family: $fontFamily;
+}
+.text-center {
+  text-align: center;
+}
+.mb {
+  margin-bottom: 20px;
+}
